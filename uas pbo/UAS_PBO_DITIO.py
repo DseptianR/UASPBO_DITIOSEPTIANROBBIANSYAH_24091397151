@@ -1,16 +1,3 @@
-"""
-prediksi_kemalasan.py
-Aplikasi GUI (Tkinter) versi Python dari Sistem Prediksi Tingkat Kemalasan Mahasiswa.
-Fitur:
-- OOP classes: Person, Mahasiswa, AktivitasMahasiswa, Prediktor (Simple & Advanced)
-- Input mahasiswa (nama, umur, nim, prodi)
-- Slider input aktivitas (jam belajar, kehadiran, tugas selesai, jam tidur, jam main)
-- Pilihan algoritma (simple / advanced)
-- Analisis -> hasil (tingkat, warna, persentase, skor), rekomendasi, timestamp
-- Riwayat analisis (Treeview)
-- Visualisasi Bar Chart (aktivitas vs target) & Pie Chart (distribusi hasil)
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import datetime
@@ -438,3 +425,4 @@ class App(tk.Tk):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
+
